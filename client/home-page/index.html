@@ -4,16 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../home-page/index.css"> 
+    <title>Diary website</title>
 </head>
 <body>
+    <!-- nav bar -->
     <header>
-        <nav>
-            <a href="#">HOME</a>
-            <a href="#">ABOUR</a>
-            <a href="#">CONT</a>
-            <a href="#">SLIDE</a>
-        </nav>
+        <a href="#home" class="logo">Kodak<span>Notes</span></a>
+        <div id="menu-icon"><i class="fa-solid fa-bars"></i></div>
+        <!-- <div class="close"><i class="fa-solid fa-xmark "></i></div> -->
+        <ul id="nav-bar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
     </header>
+
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Hi, Im <span>Kodak</span></h1>
+            <h2>Lets save that memory</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error</p> 
+            <p class="home-para">fugit.Lorem ipsum dolor sit amet consectetur adipisicing. Lorem, ipsum.</p>
+            <a href="#" class="btn">Sign Up</a>
+            <a href="#" class="btn">Log in</a>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section>
+        <div class="about" id="about">
+            <div class="about-img">
+                <img src="images/image2.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <h2>Capture Your lifes story</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Laborum,minima?Lorem,ipsum dolor sit amet consectetur adipisicing elit.Numquam dicta nulla aliquam eum sapiente facere corporis itaque quibusdam possimus aspernatur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, voluptatem.</p>
+            </div>
+        </div>
+
+        <div class="about2" id="about2">
+            <div class="about-img">
+                <img src="images/image3.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <h2>Never forget anything</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Laborum,minima?Lorem,ipsum dolor sit amet consectetur adipisicing elit.Numquam dicta nulla aliquam eum sapiente facere corporis itaque quibusdam possimus aspernatur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, voluptatem.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact-section -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h1>Contact</h1>
+        </div>
+        <!-- contact-content<div> -->
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="info-box">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+234 9013739425</p>
+                </div>
+                <div class="info-box">
+                    <i class="fa-solid fa-envelope-open"></i>
+                    <p>ajitemisantuoyo403@gmail.com</p>
+                </div>
+                <div class="info-box">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>6,seriki,Aro street Ikeja Lagos</p>
+                </div>
+                <div class="info-box social">
+                   <a href=""><i class="fa-brands fa-facebook"></i></a>
+                   <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                   <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+                   <a href=""><i class="fa-brands fa-github-square"></i></a>
+                </div>
+            </div>
+            <!-- contact form -->
+            <div class="contact-form">
+                <form action="">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Write Your Message Here.."></textarea>
+                    <input type="button" value="send" class="contact-button">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- copyright -->
+    <section class="copyright">
+        <p>@ Onsight for us  all right reserved</p>
+    </section>
 </body>
 </html>

@@ -1,0 +1,97 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: "poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #344a72;
+    font-family: "poppins", sans-serif;
+    background-image: url(../home-page/images/image1.jpg);
+    background-size: cover;
+}
+
+.signup-box{
+    width: 360px;
+    height: 870px;
+    margin: auto;
+    margin-top: 120px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.login-box{
+    width: 360px;
+    height: 270px;
+    background-color: white;
+    margin: 120px auto;
+    height: 450px;
+    border-radius: 30px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+
+h4{
+    text-align: center;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+
+    label{
+        display: flex;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    input{
+        width: 100%;
+        padding: 7px;
+        border: none;
+        border: 1px solid rgba(212, 70, 70);
+        border-radius: 6px;
+        outline: none;
+    }
+
+}
+
+input[type ="button"]{
+    width: 100%;
+    height: 55px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgba(212, 70, 70);
+    color: white;
+    font-size: 18px;
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.para-2{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.login{
+   margin-top: -90px;
+}
+
+
+.para-2 a,.login a{
+    color: rgba(212, 70, 70);
+}
